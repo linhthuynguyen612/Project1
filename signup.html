@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập và Đăng ký</title>
+    <style>
+        .error {
+            color: rgb(107, 64, 186);
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    
+    <form id="form_signup">
+    <h1>Đăng ký</h1>
+    <div>
+        <label for="signupUser">Tên người dùng:</label>
+        <input type="text" id="signupUser" required>
+    </div>
+        
+    <div>
+        <label for="signupEmail">Email:</label>
+        <input type="email" id="signupEmail" required>
+    </div>
+        
+    <div>
+        <label for="signupPass">Mật khẩu:</label>
+        <input type="password" id="signupPass" required>
+    </div>
+    <div>
+        <label for="ConfirmPassword">Xác nhận mật khẩu:</label>
+        <input type="password" id="ConfirmPassword" required>
+    </div>
+    <div>
+        <input type="submit" value="Đăng ký">
+    </div>
+</form>
+
+<script src="signup.js"></script>
+</body>
+</html>

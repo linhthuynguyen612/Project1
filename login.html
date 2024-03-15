@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <style>
+        .error {
+            color: rgb(107, 64, 186);
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <form id="form_login">
+            <h1 class="login_heading">Đăng Nhập</h1>
+            <div><label for="loginUser">Tên đăng nhập:</label>
+                <input placeholder="Tên đăng nhập" type="text" id="loginUser" required>
+            </div>
+                
+            <div>
+                <label for="loginPass">Mật khẩu:</label>
+                <input type="password" id="loginPass" required>
+            </div>
+            <div>
+                <input class="login_sub" type="submit" value="Đăng nhập">
+                <input class="login_sub" type="submit" value="Đăng kí">
+            </div>
+            
+            <!-- <div>
+                <input type="submit" value="Đăng ký">
+            </div> -->
+        </form>
+    </div>
+    
+    
+
+
+<script src="login.js"></script>
+</body>
+</html>

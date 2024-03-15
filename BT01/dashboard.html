@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dashboard.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./assets/image/logo.png" alt="">
+                    <h2 style="color: #ad171c;"> PTIT</h2>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="" class="active">
+                    <span class="fa-solid fa-laptop-code"></span>
+                    <h3>Quản lý kì thi</h3>
+                </a>
+
+                <a href="">
+                    <span class="fa-regular fa-user"></span>
+                    <h3>Quản lý người dùng</h3>
+                </a>
+
+                <a href="">
+                    <span class="fa-solid fa-chart-line"></span>
+                    <h3>Thống kê</h3>
+                </a>
+            </div>
+        </aside>
+
+        <main>
+            <h1>Quản lý kì thi</h1>
+
+            <div class="content">
+                <div class="box-header">
+                    <p>Danh sách kì thi</p>
+                </div>
+
+                <div class="box-add">
+                    <a href="#" id="openModalBtn">
+                        <button>
+                            <span style="margin-right: 5px;" class="fa-solid fa-plus"></span> 
+                            Thêm mới
+                        </button>
+                    </a>
+
+                </div>
+
+                <div class="box-body">
+                    <table style="width:100%">
+                        <thead>
+                            <tr>
+                                <th style="width:10%">STT</th>
+                                <th style="width:25%">Tên kì thi</th>
+                                <th style="width:25%">Loại kì thi</th>
+                                <th style="width:10%">Trạng thái</th>
+                                <th style="width:20%">Mô tả</th>
+                                <th style="width:10%">Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="width:10%">1</td>
+                                <td style="width:25%">2024 Luyện tập Mạng Máy Tính P1</td>
+                                <td style="width:25%">Luyện tập</td>
+                                <td style="width:10%">Tự do</td>
+                                <td style="width:20%">120 phút, 50 câu hỏi</td>
+                                <td style="width:10%">
+                                    <a href="" class="openUpdateModal" data-modal="modal1"><span style="margin: 0 10px;" class="fa-solid fa-pen-to-square"></span></a>
+                                    <a href=""><span class="fa-solid fa-xmark"></span></a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="width:10%">1</td>
+                                <td style="width:25%">2024 Luyện tập Mạng Máy Tính P1</td>
+                                <td style="width:25%">Luyện tập</td>
+                                <td style="width:10%">Tự do</td>
+                                <td style="width:20%">120 phút, 50 câu hỏi</td>
+                                <td style="width:10%">
+                                    <a href="" class="openUpdateModal" data-modal="modal1"><span style="margin: 0 10px;" class="fa-solid fa-pen-to-square"></span></a>
+                                    <a href=""><span class="fa-solid fa-xmark"></span></a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="width:10%">1</td>
+                                <td style="width:25%">2024 Luyện tập Mạng Máy Tính P1</td>
+                                <td style="width:25%">Luyện tập</td>
+                                <td style="width:10%">Tự do</td>
+                                <td style="width:20%">120 phút, 50 câu hỏi</td>
+                                <td style="width:10%">
+                                    <a href="" class="openUpdateModal" data-modal="modal2"><span style="margin: 0 10px;" class="fa-solid fa-pen-to-square"></span></a>
+                                    <a href=""><span class="fa-solid fa-xmark"></span></a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="width:10%">1</td>
+                                <td style="width:25%">2024 Luyện tập Mạng Máy Tính P1</td>
+                                <td style="width:25%">Luyện tập</td>
+                                <td style="width:10%">Tự do</td>
+                                <td style="width:20%">120 phút, 50 câu hỏi</td>
+                                <td style="width:10%">
+                                    <a href="" class="openUpdateModal" data-modal="modal3"><span style="margin: 0 10px;" class="fa-solid fa-pen-to-square"></span></a>
+                                    <a href=""><span class="fa-solid fa-xmark"></span></a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="width:10%">1</td>
+                                <td style="width:25%">2024 Luyện tập Mạng Máy Tính P1</td>
+                                <td style="width:25%">Luyện tập</td>
+                                <td style="width:10%">Tự do</td>
+                                <td style="width:20%">120 phút, 50 câu hỏi</td>
+                                <td style="width:10%">
+                                    <a href="" class="openUpdateModal" data-modal="modal4"><span style="margin: 0 10px;" class="fa-solid fa-pen-to-square"></span></a>
+                                    <a href=""><span class="fa-solid fa-xmark"></span></a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="width:10%">1</td>
+                                <td style="width:25%">2024 Luyện tập Mạng Máy Tính P1</td>
+                                <td style="width:25%">Luyện tập</td>
+                                <td style="width:10%">Tự do</td>
+                                <td style="width:20%">120 phút, 50 câu hỏi</td>
+                                <td style="width:10%">
+                                    <a href="" class="openUpdateModal" data-modal="modal5"><span style="margin: 0 10px;" class="fa-solid fa-pen-to-square"></span></a>
+                                    <a href=""><span class="fa-solid fa-xmark"></span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            
+        </main>
+
+        <div id="addExamModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Modal Title</h2>
+                <p>Đây là nội dung của modal.</p>
+            </div>
+        </div>
+
+        <div id="updateExamModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Modal Title</h2>
+                <p>Đây là nội dung của modal.</p>
+            </div>
+        </div>
+    </div>  
+  
+    <script src="dashboard.js"></script>
+</body>
+</html>
+
